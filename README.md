@@ -2,7 +2,7 @@
 Autonomous JetRacer system using Jetson Nano (Linux Embedded), integrates Python, ROS, jetson-inference for sensor data processing and vehicle control, applied in mobile robotics and AI.
 
 
-############33
+############
 When run code: rosrun python_detect read_scan.py
 ('So luong tia:', 1147)
 ('Goc bat dau (rad):', -3.1415927410125732)

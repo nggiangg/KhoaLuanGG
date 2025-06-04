@@ -1,5 +1,19 @@
 # KhoaLuanGG
+## Hướng dẫn cài đặt
 
+```sh
+# Di chuyển vào thư mục home
+cd /home/jetson
+
+# Nếu chưa có catkin_ws thì tạo mới
+[ -d catkin_ws ] || mkdir catkin_ws
+
+# Di chuyển vào catkin_ws
+cd catkin_ws
+
+# Clone repository về
+git clone https://github.com/nggiangg/KhoaLuanGG.git
+```
 Autonomous JetRacer system using Jetson Nano (Linux Embedded), integrates Python, ROS, jetson-inference for sensor data processing and vehicle control, applied in mobile robotics and AI.
 
 ---

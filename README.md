@@ -3,13 +3,7 @@
 
 ```sh
 # Di chuyển vào thư mục home
-cd /home/jetson
-
-# Nếu chưa có catkin_ws thì tạo mới
-[ -d catkin_ws ] || mkdir catkin_ws
-
-# Di chuyển vào catkin_ws
-cd catkin_ws
+cd /home/jetson/catkin_ws/src
 
 # Clone repository về
 git clone https://github.com/nggiangg/KhoaLuanGG.git

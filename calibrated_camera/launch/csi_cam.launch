@@ -1,0 +1,19 @@
+<launch>
+  <!-- Camera parameters -->
+  <arg name="camera_id" default="0" />
+  <arg name="width" default="640" />
+  <arg name="height" default="480" />
+  <arg name="frame_rate" default="30" />
+  <arg name="use_gstreamer" default="true" />
+  <arg name="apply_calibration" default="true" />
+  
+  <!-- Launch the CSI camera node -->
+  <node name="csi_cam_node" pkg="calibrated_camera" type="csi_cam_node.py" output="screen">
+    <param name="camera_id" value="$(arg camera_id)" />
+    <param name="width" value="$(arg width)" />
+    <param name="height" value="$(arg height)" />
+    <param name="frame_rate" value="$(arg frame_rate)" />
+    <param name="use_gstreamer" value="$(arg use_gstreamer)" />
+    <param name="apply_calibration" value="$(arg apply_calibration)" />
+  </node>
+</launch>

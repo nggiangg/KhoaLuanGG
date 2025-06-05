@@ -1,0 +1,2 @@
+gscam:jetracer_camera_reader:jetracer_ros:jetson_csi_cam:python_detect:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/jetson/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/catkin_ws/install -G Unix Makefiles

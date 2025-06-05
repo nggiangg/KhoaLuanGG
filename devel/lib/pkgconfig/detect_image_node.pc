@@ -1,8 +1,0 @@
-prefix=/home/jetson/catkin_ws/devel
-
-Name: detect_image_node
-Description: Description of detect_image_node
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
